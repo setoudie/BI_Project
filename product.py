@@ -1,6 +1,8 @@
 import  csv
 from faker import Faker
 from seller import locales
+from main import driver
+from function import *
 
 nbre_produits = 120
 fake = Faker(locale=locales)
@@ -16,13 +18,8 @@ products = [
     'Compote', 'Sirops', 'Mélange', 'Pâtes', 'Vin', 'Pâtes', 'Mélange', 'Café', 'Thé', 'Cacao'
 ]
 
-with open('data/fake_products.csv', mode='w', newline='', encoding='utf-8') as file:
-    writer = csv.writer(file)
-    writer.writerow(['Product_id', 'Product_name', 'Price'])
-
-    for _ in range(nbre_produits):
-        writer.writerow([
-            'P_'+f'{fake.random_number(digits=3, fix_len=True)}',
-            fake.random_element(elements=products),
-            fake.random_int(min=550, max=35000)
-        ])
+for _ in range(nbre_produits):
+    p_name = fake.random_element(elements=products),
+    p_price = fake.random_int(min=550, max=35000)
+    create_product(driver, product_name=p_name, price=p_price)
+driver.close()
