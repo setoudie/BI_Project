@@ -1,78 +1,59 @@
-
-from neo4j import GraphDatabase
-
-# Configurations de connexion
-uri = "neo4j+s://8c8966cb.databases.neo4j.io"
-username = "neo4j"
-password = "_RbNDCuv52-Mk5OvUuAzrQDKEZC6SyQvBF7tdZ54G-I"
-
-# Créer une connexion au serveur Neo4j
-driver = GraphDatabase.driver(uri, auth=(username, password))
-
-def create_seller(drv, name, phone, gender):
+"""
+    Dans ce fichier est ecrit toutes les fonctions utiles du project
+"""
+def create_seller(drv, s_id, name, phone, gender):
     query = (
-        "CREATE (s:Seller {name: $name, phone: $phone, gender: $gender}) "
+        "CREATE (s:Seller {s_id: $s_id, name: $name, phone: $phone, gender: $gender}) "
         "RETURN s"
     )
     # Ouverture d'une session pour exécuter la requête
     with drv.session() as session:
-        result = session.run(query, name=name, phone=phone, gender=gender)
+        result = session.run(query, s_id=s_id, name=name, phone=phone, gender=gender)
         return result.single()  # Récupère le premier résultat s'il existe
 
     # Fonction pour creer un produit
-def create_product(drv, product_name, price):
+def create_product(drv, p_id, product_name, price):
     query = (
-        "CREATE (p:Product {product_name: $product_name, price: $price})"
+        "CREATE (p:Product {p_id: $p_id, product_name: $product_name, price: $price})"
         "RETURN p"
     )
     with drv.session() as session:
-        result = session.run(query, product_name=product_name, price=price)
+        result = session.run(query, p_id=p_id, product_name=product_name, price=price)
         return result.single()  # Récupère le premier résultat s'il existe
 
-def create_customer(drv, name, phone, gender, type):
+def create_customer(drv, c_id, name, phone, gender, type):
     query = (
-        "CREATE (c:Client {name: $name, phone: $phone, gender: $gender, type: $type}) "
+        "CREATE (c:Client {c_id: $c_id, name: $name, phone: $phone, gender: $gender, type: $type}) "
         "RETURN c"
     )
     # Ouverture d'une session pour exécuter la requête
     with drv.session() as session:
-        result = session.run(query, name=name, phone=phone, gender=gender, type=type)
+        result = session.run(query, c_id=c_id, name=name, phone=phone, gender=gender, type=type)
         return result.single()  # Récupère le premier résultat s'il existe
 
-def create_order(drv, id_client, id_vendeur, date, product, quantite):
-    query = (
-        "MATCH (c:Client {id: $id_client}), (s:Seller {id: $id_vendeur}), (p:Product {name: $product}) "
-        "CREATE (o:Order {date: $date, quantite: $quantite}) "
-        "CREATE (c)-[:PLACED]->(o)-[:SOLD_BY]->(s) "
-        "CREATE (o)-[:CONTAINS]->(p) "
-        "RETURN o"
-    )
-    # Ouverture d'une session pour exécuter la requête
+def create_order(drv, id_order, id_client, id_vendeur, date, produit, quantite):
+    query = """
+    MATCH (c:Client {c_id: $id_client}), (v:Seller {s_id: $id_vendeur}), (p:Product {product_name: $produit})
+    CREATE (o:Order {
+        o_id: $id_order,
+        produit: p.product_name,
+        client: c.name,
+        vendeur: v.name,
+        date: $date,
+        quantite: $quantite
+    })
+    CREATE (c)-[:A_PASSE]->(o)
+    CREATE (v)-[:A_TRAITE]->(o)
+    CREATE (o)-[:CONTIENT]->(p)
+    RETURN o
+    """
     with drv.session() as session:
-        result = session.run(
-            query,
-            id_client=id_client,
-            id_vendeur=id_vendeur,
-            date=date,
-            product=product,
-            quantite=quantite
-        )
-        return result.single()  # Retourne l'objet commande créé
+        result = session.run(query, id_order=id_order, id_client=id_client, id_vendeur=id_vendeur, date=date, produit=produit, quantite=quantite)
+        return result.single()
 
-
-# create_seller(driver, name='Seny Diedhiou', phone='+221 777461097', gender='M')
-# create_product(driver, product_name="Lait", price=300)
-# create_customer(driver, name='Seny Diedhiou', phone='+221 777461097', gender='M', type="VIP")
-result = driver.session().run("""
-    MATCH (p:Client)
-    RETURN id(p) AS product_id, p.product_name AS product_name, p.price AS price
-""")
-
-for _ in result:
-    print(_['product_id'])
 
 def get_products_name(drv):
-    result = driver.session().run("""
+    result = drv.session().run("""
         MATCH (p:Product)
         RETURN p.product_name AS product_name
     """)
@@ -84,9 +65,9 @@ def get_products_name(drv):
     return products_names
 
 def get_clients_id(drv):
-    result = driver.session().run("""
+    result = drv.session().run("""
         MATCH (c:Client)
-        RETURN id(c) AS client_id
+        RETURN c.c_id AS client_id
     """)
 
     clients_ids = []
@@ -97,9 +78,9 @@ def get_clients_id(drv):
 
 
 def get_sellers_id(drv):
-    result = driver.session().run("""
+    result = drv.session().run("""
         MATCH (s:Seller)
-        RETURN id(s) AS seller_id
+        RETURN s.s_id AS seller_id
     """)
 
     sellers_ids = []
@@ -108,4 +89,11 @@ def get_sellers_id(drv):
 
     return sellers_ids
 
-driver.close()
+
+def delete_all_data(drv):
+    # Exécuter la requête pour supprimer tous les nœuds et relations
+    drv.session().run("""
+        MATCH (n)
+        DETACH DELETE n
+    """)
+    print("Tous les nœuds ont été supprimés.")
