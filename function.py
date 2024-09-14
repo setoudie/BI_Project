@@ -1,6 +1,19 @@
 """
     Dans ce fichier est ecrit toutes les fonctions utiles du project
 """
+import csv
+
+products = [
+    'Lait', 'Yaourt', 'Fromage', 'Beurre', 'Crème', 'Pain', 'Pâtes', 'Riz', 'Huile', 'Sauce',
+    'Confiture', 'Miel', 'Chocolat', 'Biscuits', 'Céréales', 'Purée', 'Moutarde', 'Ketchup', 'Poivre', 'Sel',
+    'Amandes', 'Noix', 'Cacahuètes', 'Raisins', 'Épices', 'Herbes', 'Paprika', 'Cumin', 'Cannelle', 'Vinaigre',
+    'Olives', 'Cornichons', 'Chips', 'Pop-corn', 'Pâte', 'Gâteaux', 'Poudre', 'Farine', 'Sucre', 'Jus',
+    'Compote', 'Sauce', 'Saucisse', 'Viande', 'Poulet', 'Poisson', 'Steak', 'Salami', 'Jambon', 'Bacon',
+    'Rillettes', 'Pâté', 'Tartinade', 'Hummus', 'Guacamole', 'Salsa', 'Mayonnaise', 'Vinaigrette', 'Tzatziki',
+    'Sirops', 'Crêpes', 'Cornflakes', 'Margarine', 'Graines', 'Crackers', 'Flocons', 'Concentré',
+    'Compote', 'Sirops', 'Mélange', 'Pâtes', 'Pâtes', 'Mélange', 'Café', 'Thé', 'Cacao', 'Moutarde'
+]
+
 def create_seller(drv, s_id, name, phone, gender):
     query = (
         "CREATE (s:Seller {s_id: $s_id, name: $name, phone: $phone, gender: $gender}) "
@@ -97,3 +110,86 @@ def delete_all_data(drv):
         DETACH DELETE n
     """)
     print("Tous les nœuds ont été supprimés.")
+
+
+def download_clients_data(drv):
+    results = drv.session().run(
+        """
+            MATCH (n:Client) RETURN n.c_id AS ClientID, n.name AS FullName, n.phone AS PhoneNumber, n.type As ClientType, n.gender AS Genre
+        """
+    )
+
+    with open('data/neo4j_clients.csv', mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['ClientID', 'FullName', 'PhoneNumber', 'ClientType', 'Genre'])
+        for record in results:
+            writer.writerow([
+                record["ClientID"],
+                record["FullName"],
+                record["PhoneNumber"],
+                record["ClientType"],
+                record["Genre"]
+            ])
+    print('file path : data/neo4j_clients.csv')
+
+
+def download_sellers_data(drv):
+    results = drv.session().run(
+        """
+            MATCH (n:Seller) RETURN n.s_id AS VendeurID, n.name AS FullName, n.phone AS PhoneNumber, n.gender AS Genre
+        """
+    )
+
+    with open('data/neo4j_sellers.csv', mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['VendeurID', 'FullName', 'PhoneNumber', 'Genre'])
+        for record in results:
+            writer.writerow([
+                record["VendeurID"],
+                record["FullName"],
+                record["PhoneNumber"],
+                record["Genre"]
+            ])
+    print('file path : data/neo4j_sellers.csv')
+
+
+def download_product_data(drv):
+    results = drv.session().run("""
+        MATCH (n:Product) RETURN n.p_id AS ProduitID, n.product_name AS Product, n.price AS Prix
+    """)
+
+    with open('data/neo4j_products.csv', mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['ProduitID', 'Product', 'Prix'])
+        for record in results:
+            writer.writerow([
+                record["ProduitID"],
+                record["Product"],
+                record["Prix"],
+            ])
+    print('file path : data/neo4j_products.csv')
+
+
+def download_orders_data(drv):
+    results = drv.session().run("""
+        MATCH (n:Order) RETURN n.o_id AS CommandeID, 
+        n.vendeur AS VendeurName, 
+        n.client AS ClientName, 
+        n.produit AS Product, 
+        n.quantite AS Quantite, 
+        n.date AS CommandeDate     
+    """)
+
+    with open('data/neo4j_orders.csv', mode='w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['CommandeID', 'VendeurName', 'ClientName', 'Product', 'Quantite', 'CommandeDate'])
+        for record in results:
+            writer.writerow([
+                record["CommandeID"],
+                record["VendeurName"],
+                record["ClientName"],
+                record['Product'],
+                record['Quantite'],
+                record['CommandeDate']
+            ])
+    print('file path : data/neo4j_orders.csv')
