@@ -2,6 +2,9 @@
     Dans ce fichier est ecrit toutes les fonctions utiles du project
 """
 import csv
+import os
+
+from tqdm import tqdm
 
 products = [
     'Lait', 'Yaourt', 'Fromage', 'Beurre', 'Crème', 'Pain', 'Pâtes', 'Riz', 'Huile', 'Sauce',
@@ -113,16 +116,20 @@ def delete_all_data(drv):
 
 
 def download_clients_data(drv):
+    save_dir = "data"
+    if not os.path.exists(save_dir):
+        os.mkdir(save_dir)
+
     results = drv.session().run(
         """
             MATCH (n:Client) RETURN n.c_id AS ClientID, n.name AS FullName, n.phone AS PhoneNumber, n.type As ClientType, n.gender AS Genre
         """
     )
 
-    with open('data/neo4j_clients.csv', mode='w', newline='', encoding='utf-8') as file:
+    with open(f'{save_dir}/neo4j_clients.csv', mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['ClientID', 'FullName', 'PhoneNumber', 'ClientType', 'Genre'])
-        for record in results:
+        for record in tqdm(results, desc="Téléchargement des clients"):
             writer.writerow([
                 record["ClientID"],
                 record["FullName"],
@@ -134,16 +141,20 @@ def download_clients_data(drv):
 
 
 def download_sellers_data(drv):
+    save_dir = "data"
+    if not os.path.exists(save_dir):
+        os.mkdir(save_dir)
+
     results = drv.session().run(
         """
             MATCH (n:Seller) RETURN n.s_id AS VendeurID, n.name AS FullName, n.phone AS PhoneNumber, n.gender AS Genre
         """
     )
 
-    with open('data/neo4j_sellers.csv', mode='w', newline='', encoding='utf-8') as file:
+    with open(f'{save_dir}/neo4j_sellers.csv', mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['VendeurID', 'FullName', 'PhoneNumber', 'Genre'])
-        for record in results:
+        for record in tqdm(results, desc="Téléchargement des vendeurs"):
             writer.writerow([
                 record["VendeurID"],
                 record["FullName"],
@@ -154,14 +165,18 @@ def download_sellers_data(drv):
 
 
 def download_product_data(drv):
+    save_dir = "data"
+    if not os.path.exists(save_dir):
+        os.mkdir(save_dir)
+
     results = drv.session().run("""
         MATCH (n:Product) RETURN n.p_id AS ProduitID, n.product_name AS Product, n.price AS Prix
     """)
 
-    with open('data/neo4j_products.csv', mode='w', newline='', encoding='utf-8') as file:
+    with open(f'{save_dir}/neo4j_products.csv', mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['ProduitID', 'Product', 'Prix'])
-        for record in results:
+        for record in tqdm(results, desc="Téléchargement des produits"):
             writer.writerow([
                 record["ProduitID"],
                 record["Product"],
@@ -171,6 +186,10 @@ def download_product_data(drv):
 
 
 def download_orders_data(drv):
+    save_dir = "data"
+    if not os.path.exists(save_dir):
+        os.mkdir(save_dir)
+
     results = drv.session().run("""
         MATCH (n:Order) RETURN n.o_id AS CommandeID, 
         n.vendeur AS VendeurName, 
@@ -180,10 +199,10 @@ def download_orders_data(drv):
         n.date AS CommandeDate     
     """)
 
-    with open('data/neo4j_orders.csv', mode='w', newline='', encoding='utf-8') as file:
+    with open(f'{save_dir}/neo4j_orders.csv', mode='w', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         writer.writerow(['CommandeID', 'VendeurName', 'ClientName', 'Product', 'Quantite', 'CommandeDate'])
-        for record in results:
+        for record in tqdm(results, desc="Téléchargement des commandes"):
             writer.writerow([
                 record["CommandeID"],
                 record["VendeurName"],

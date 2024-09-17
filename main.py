@@ -1,3 +1,4 @@
+from tqdm import tqdm
 import time
 from neo4j import GraphDatabase
 from faker import Faker
@@ -32,15 +33,15 @@ fake = Faker(locale=locales)
 
 delete_all_data(drv=driver)
 
-for pid in range(nbre_produits):
+for pid in tqdm(range(nbre_produits), desc="Creation des Produits"):
     p_name = fake.random_element(elements=products)
     p_price = fake.random_int(min=550, max=35000)
     create_product(driver, p_id=f"prd_{pid}", product_name=p_name, price=p_price)
 # driver.close()
 
 
-for cid in range(nbre_clients):
-    print(cid)
+for cid in tqdm(range(nbre_clients), desc="Création des Clients"):
+    # print(cid)
     c_name = fake.name()
     c_phone = fake.phone_number()
     c_gender = fake.passport_gender()
@@ -48,7 +49,7 @@ for cid in range(nbre_clients):
     create_customer(drv=driver, c_id=f"clt_{cid}", name=c_name, phone=c_phone, gender=c_gender, type=c_type)
 
 
-for vid in range(nbre_vendeur):
+for vid in tqdm(range(nbre_vendeur), desc="Creation des Vendeurs"):
     v_name = fake.name()
     v_phone = fake.phone_number()
     fv_gender = fake.passport_gender()
@@ -58,17 +59,17 @@ clients_ids = get_clients_id(drv=driver)
 sellers_ids = get_sellers_id(drv=driver)
 product_names = get_products_name(drv=driver)
 
-print(f"Clients IDs : {clients_ids}")
-print(f"Sellers IDs : {sellers_ids}")
-print(f"Products Names : {product_names}")
+# print(f"Clients IDs : {clients_ids}")
+# print(f"Sellers IDs : {sellers_ids}")
+# print(f"Products Names : {product_names}")
 driver.close()
 time.sleep(5)
 
 # driver = GraphDatabase.driver(loc_uri, auth=(username, password_loc))
 driver = GraphDatabase.driver(uri, auth=(username, password))
 
-for oid in range(nbre_commandes):
-    print(oid)
+for oid in tqdm(range(nbre_commandes), desc="Creation des Commandes"):
+    # print(oid)
     c_id = fake.random_element(elements=clients_ids)
     v_id = fake.random_element(elements=sellers_ids)
     date = fake.date()
