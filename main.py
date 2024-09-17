@@ -78,10 +78,3 @@ for oid in tqdm(range(nbre_commandes), desc="Creation des Commandes"):
     create_order(drv=driver, id_order=f"cmd_{oid}", id_client=c_id, id_vendeur=v_id, date=date, produit=product_name, quantite=qte)
 
 driver.close()
-time.sleep(5)
-
-driver = GraphDatabase.driver(uri, auth=(username, password))
-download_product_data(drv=driver)
-download_orders_data(drv=driver)
-download_clients_data(drv=driver)
-download_sellers_data(drv=driver)
