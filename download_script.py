@@ -88,12 +88,12 @@ def download_orders_data(drv):
     check_and_create_save_dir(s_dir=save_dir)
 
     results = drv.session().run("""
-        MATCH (n:Order) RETURN n.o_id AS CommandeID, 
-        n.vendeur AS VendeurName, 
-        n.client AS ClientName, 
-        n.produit AS Product, 
-        n.quantite AS Quantite, 
-        n.date AS CommandeDate     
+        MATCH (n:Order) RETURN n.o_id AS CommandeID,
+        n.vendeur AS VendeurName,
+        n.client AS ClientName,
+        n.produit AS Product,
+        n.quantite AS Quantite,
+        n.date AS CommandeDate
     """)
 
     with open(f'{save_dir}/neo4j_orders.csv', mode='w', newline='', encoding='utf-8') as file:
@@ -120,12 +120,12 @@ def download_orders_data_xml(drv):
 
     # Requête Neo4j pour récupérer les données
     results = drv.session().run("""
-        MATCH (n:Order) RETURN n.o_id AS CommandeID, 
-                               n.vendeur AS VendeurName, 
-                               n.client AS ClientName, 
-                               n.produit AS Product, 
-                               n.quantite AS Quantite, 
-                               n.date AS CommandeDate     
+        MATCH (n:Order) RETURN n.o_id AS CommandeID,
+                               n.vendeur AS VendeurName,
+                               n.client AS ClientName,
+                               n.produit AS Product,
+                               n.quantite AS Quantite,
+                               n.date AS CommandeDate
     """)
 
     # Itérer sur les résultats et construire le fichier XML

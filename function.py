@@ -1,11 +1,6 @@
 """
     Dans ce fichier est ecrit toutes les fonctions utiles du project
 """
-import csv
-import os
-import xml.etree.cElementTree as ET
-from xml.dom import minidom
-from tqdm import tqdm
 
 products = [
     'Lait', 'Yaourt', 'Fromage', 'Beurre', 'Crème', 'Pain', 'Pâtes', 'Riz', 'Huile', 'Sauce',
@@ -48,40 +43,58 @@ def create_customer(drv, c_id, name, phone, gender, type):
         result = session.run(query, c_id=c_id, name=name, phone=phone, gender=gender, type=type)
         return result.single()  # Récupère le premier résultat s'il existe
 
-def create_order(drv, id_order, id_client, id_vendeur, date, produit, quantite):
+def create_order_product(drv, o_id, p_id, prd_name, quantite):
+    query = ("""
+        CREATE (cp:CommandeProduit {o_id: $o_id, p_id: $p_id, product_name: $product_name, quantite: $quantite})
+        RETURN cp
+    """)
+
+    with drv.session() as session:
+        result = session.run(query, o_id=o_id, p_id=p_id, product_name=prd_name, quantite=quantite)
+        return result.single()
+
+def create_order(drv, id_order, id_client, id_vendeur, date):
     query = """
-    MATCH (c:Client {c_id: $id_client}), (v:Seller {s_id: $id_vendeur}), (p:Product {product_name: $produit})
     CREATE (o:Order {
         o_id: $id_order,
-        produit: p.product_name,
-        client: c.name,
-        vendeur: v.name,
-        date: $date,
-        quantite: $quantite
+        c_id: $id_client,
+        s_id: $id_vendeur,
+        date: $date
     })
     CREATE (c)-[:A_PASSE]->(o)
     CREATE (v)-[:A_TRAITE]->(o)
-    CREATE (o)-[:CONTIENT]->(p)
     RETURN o
     """
     with drv.session() as session:
-        result = session.run(query, id_order=id_order, id_client=id_client, id_vendeur=id_vendeur, date=date, produit=produit, quantite=quantite)
+        result = session.run(query, id_order=id_order, id_client=id_client, id_vendeur=id_vendeur, date=date)
         return result.single()
 
 
-def get_products_name(drv):
+def get_products_ids(drv):
     result = drv.session().run("""
         MATCH (p:Product)
-        RETURN p.product_name AS product_name
+        RETURN p.p_id AS product_id
     """)
 
-    products_names = []
+    products_ids = []
     for record in result:
-        products_names.append(record['product_name'])
+        products_ids.append(record['product_id'])
 
-    return products_names
+    return products_ids
 
-def get_clients_id(drv):
+def get_order_ids(drv):
+    result = drv.session().run("""
+        MATCH (p:Order)
+            RETURN p.o_id AS order_id
+    """)
+
+    orders_ids = []
+    for record in result:
+        orders_ids.append(record['order_id'])
+
+    return orders_ids
+
+def get_clients_ids(drv):
     result = drv.session().run("""
         MATCH (c:Client)
         RETURN c.c_id AS client_id
@@ -94,7 +107,7 @@ def get_clients_id(drv):
     return clients_ids
 
 
-def get_sellers_id(drv):
+def get_sellers_ids(drv):
     result = drv.session().run("""
         MATCH (s:Seller)
         RETURN s.s_id AS seller_id

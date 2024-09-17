@@ -17,10 +17,10 @@ password_loc="tryagain"
 driver = GraphDatabase.driver(uri, auth=(username, password))
 # driver = GraphDatabase.driver(loc_uri, auth=(username, password_loc))
 
-nbre_produits = 80
-nbre_clients = 349
-nbre_vendeur = 30
-nbre_commandes = 2000
+nbre_produits = 8
+nbre_clients = 3
+nbre_vendeur = 3
+nbre_commandes = 20
 
 
 locales = [
@@ -55,9 +55,10 @@ for vid in tqdm(range(nbre_vendeur), desc="Creation des Vendeurs"):
     fv_gender = fake.passport_gender()
     create_seller(drv=driver, s_id=f"vnd_{vid}", name=v_name, phone=v_phone, gender=fv_gender)
 
-clients_ids = get_clients_id(drv=driver)
-sellers_ids = get_sellers_id(drv=driver)
-product_names = get_products_name(drv=driver)
+clients_ids = get_clients_ids(drv=driver)
+sellers_ids = get_sellers_ids(drv=driver)
+product_ids = get_products_ids(drv=driver)
+
 
 # print(f"Clients IDs : {clients_ids}")
 # print(f"Sellers IDs : {sellers_ids}")
@@ -73,8 +74,20 @@ for oid in tqdm(range(nbre_commandes), desc="Creation des Commandes"):
     c_id = fake.random_element(elements=clients_ids)
     v_id = fake.random_element(elements=sellers_ids)
     date = fake.date()
-    product_name = fake.random_element(elements=product_names)
-    qte = fake.random_int(min=1, max=35)
-    create_order(drv=driver, id_order=f"cmd_{oid}", id_client=c_id, id_vendeur=v_id, date=date, produit=product_name, quantite=qte)
+    create_order(drv=driver, id_order=f"cmd_{oid}", id_client=c_id, id_vendeur=v_id, date=date)
+
+driver.close()
+time.sleep(5)
+
+driver = GraphDatabase.driver(uri, auth=(username, password))
+orders_ids = get_order_ids(drv=driver)
+print(orders_ids)
+
+for _ in tqdm(range(nbre_commandes), desc="Creation des Commandes-Produits"):
+    o_id = fake.random_element(elements=orders_ids)
+    p_id = fake.random_element(elements=product_ids)
+    product_name = fake.random_element(elements=products)
+    quantite = fake.random_int(min=1, max=300)
+    create_order_product(drv=driver, o_id=o_id, p_id=p_id, prd_name=product_name, quantite=quantite)
 
 driver.close()
