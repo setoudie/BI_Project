@@ -14,13 +14,13 @@ loc_uri = "neo4j://localhost:7687"
 password_loc="tryagain"
 
 # Créer une connexion au serveur Neo4j
-driver = GraphDatabase.driver(uri, auth=(username, password))
+driver = GraphDatabase.driver(loc_uri, auth=(username, password_loc))
 # driver = GraphDatabase.driver(loc_uri, auth=(username, password_loc))
 
-nbre_produits = 8
-nbre_clients = 3
-nbre_vendeur = 3
-nbre_commandes = 20
+nbre_produits = 80
+nbre_clients = 300
+nbre_vendeur = 30
+nbre_commandes = 2000
 
 
 locales = [
@@ -66,8 +66,8 @@ product_ids = get_products_ids(drv=driver)
 driver.close()
 time.sleep(5)
 
-# driver = GraphDatabase.driver(loc_uri, auth=(username, password_loc))
-driver = GraphDatabase.driver(uri, auth=(username, password))
+driver = GraphDatabase.driver(loc_uri, auth=(username, password_loc))
+# driver = GraphDatabase.driver(uri, auth=(username, password))
 
 for oid in tqdm(range(nbre_commandes), desc="Creation des Commandes"):
     # print(oid)
@@ -79,9 +79,9 @@ for oid in tqdm(range(nbre_commandes), desc="Creation des Commandes"):
 driver.close()
 time.sleep(5)
 
-driver = GraphDatabase.driver(uri, auth=(username, password))
+driver = GraphDatabase.driver(loc_uri, auth=(username, password_loc))
 orders_ids = get_order_ids(drv=driver)
-print(orders_ids)
+# print(orders_ids)
 
 for _ in tqdm(range(nbre_commandes), desc="Creation des Commandes-Produits"):
     o_id = fake.random_element(elements=orders_ids)
