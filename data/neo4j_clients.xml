@@ -1,0 +1,2446 @@
+<?xml version="1.0" ?>
+<Clients>
+   <Client>
+      <ClientID>clt_125</ClientID>
+      <FullName>Reinaldo Vara Soto</FullName>
+      <PhoneNumber>+34822290669</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_126</ClientID>
+      <FullName>Julio César Castelló Palacio</FullName>
+      <PhoneNumber>5413269249</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_127</ClientID>
+      <FullName>Augustin Rémy</FullName>
+      <PhoneNumber>217.535.5171x939</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_128</ClientID>
+      <FullName>Christopher Ross</FullName>
+      <PhoneNumber>+33 4 77 25 86 25</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_129</ClientID>
+      <FullName>Xavier du Texier</FullName>
+      <PhoneNumber>2843945068</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_130</ClientID>
+      <FullName>Aimée Couturier</FullName>
+      <PhoneNumber>02 31 14 45 28</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_131</ClientID>
+      <FullName>Salud Ariza Zamora</FullName>
+      <PhoneNumber>04 99 06 14 89</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_132</ClientID>
+      <FullName>Howard Hoffman</FullName>
+      <PhoneNumber>430.811.1896x81134</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_133</ClientID>
+      <FullName>Martin Velasco</FullName>
+      <PhoneNumber>(861)767-2771x21864</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_134</ClientID>
+      <FullName>Bernard Campbell</FullName>
+      <PhoneNumber>+34 988 43 80 86</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_135</ClientID>
+      <FullName>Rubén Cifuentes</FullName>
+      <PhoneNumber>+33 (0)2 78 35 62 92</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_136</ClientID>
+      <FullName>Patricia Sanchez</FullName>
+      <PhoneNumber>+34 812 45 37 74</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_137</ClientID>
+      <FullName>Laura Wong</FullName>
+      <PhoneNumber>+34700663694</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_138</ClientID>
+      <FullName>Roberto Infante Robles</FullName>
+      <PhoneNumber>(705)815-5356x96300</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_139</ClientID>
+      <FullName>Martin Duval-Renard</FullName>
+      <PhoneNumber>404-785-5255x424</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_140</ClientID>
+      <FullName>Ale Arévalo-Román</FullName>
+      <PhoneNumber>+34981192238</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_141</ClientID>
+      <FullName>Michelle Roussel-Dupuy</FullName>
+      <PhoneNumber>+34739 709 120</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_142</ClientID>
+      <FullName>Théophile Le Gros</FullName>
+      <PhoneNumber>+33 (0)1 79 82 76 77</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_143</ClientID>
+      <FullName>Delfina Martorell Pedrosa</FullName>
+      <PhoneNumber>+34883 84 96 65</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_144</ClientID>
+      <FullName>Jonathan Fuentes</FullName>
+      <PhoneNumber>(691)489-4509x1301</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_145</ClientID>
+      <FullName>Renée Masse-Picard</FullName>
+      <PhoneNumber>0149146901</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_146</ClientID>
+      <FullName>Étienne de Grégoire</FullName>
+      <PhoneNumber>(358)739-4601x16152</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_147</ClientID>
+      <FullName>Jérôme du Hoarau</FullName>
+      <PhoneNumber>001-958-221-9239x02747</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_148</ClientID>
+      <FullName>Timothy Snyder</FullName>
+      <PhoneNumber>492-452-4492x81985</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_149</ClientID>
+      <FullName>Marine-Olivie Lopes</FullName>
+      <PhoneNumber>0358964802</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_150</ClientID>
+      <FullName>Andrew Best</FullName>
+      <PhoneNumber>(251)376-7234x910</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_151</ClientID>
+      <FullName>Nidia Giménez Gisbert</FullName>
+      <PhoneNumber>01 60 16 48 25</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_152</ClientID>
+      <FullName>Bertrand Merle</FullName>
+      <PhoneNumber>+1-575-448-1013x9454</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_153</ClientID>
+      <FullName>Rémy Peron</FullName>
+      <PhoneNumber>+33 2 96 41 59 32</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_154</ClientID>
+      <FullName>Dr. David Mcintyre Jr.</FullName>
+      <PhoneNumber>+1-851-999-7764</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_155</ClientID>
+      <FullName>Taylor Austin</FullName>
+      <PhoneNumber>+34 975 188 783</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_156</ClientID>
+      <FullName>Michael Ball</FullName>
+      <PhoneNumber>4439360833</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_157</ClientID>
+      <FullName>Andrew Bowman</FullName>
+      <PhoneNumber>(594)922-2110x19536</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_158</ClientID>
+      <FullName>Susan Boucher-Legrand</FullName>
+      <PhoneNumber>920.402.7944x6575</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_159</ClientID>
+      <FullName>Mauricio Coll-Lledó</FullName>
+      <PhoneNumber>001-259-530-3370</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_160</ClientID>
+      <FullName>Jaime Cornejo</FullName>
+      <PhoneNumber>001-915-395-1740x20558</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_161</ClientID>
+      <FullName>Maurice-René Pires</FullName>
+      <PhoneNumber>+34800 09 02 46</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_162</ClientID>
+      <FullName>Auguste de la Boulay</FullName>
+      <PhoneNumber>(543)469-9912</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_163</ClientID>
+      <FullName>Marthe Bodin</FullName>
+      <PhoneNumber>5824413193</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_164</ClientID>
+      <FullName>Jean Pelletier de la Rodrigues</FullName>
+      <PhoneNumber>+34881498520</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_165</ClientID>
+      <FullName>Nacho Leon Larrea</FullName>
+      <PhoneNumber>579-450-6607</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_166</ClientID>
+      <FullName>Hélène Ledoux</FullName>
+      <PhoneNumber>+33 1 49 28 03 80</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_167</ClientID>
+      <FullName>John Navarro</FullName>
+      <PhoneNumber>+1-302-644-0687x9244</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_168</ClientID>
+      <FullName>Randall Marshall</FullName>
+      <PhoneNumber>770-937-3633x5015</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_169</ClientID>
+      <FullName>Trinidad Poza Real</FullName>
+      <PhoneNumber>+34923158585</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_170</ClientID>
+      <FullName>Gilbert-Laurent Jacquot</FullName>
+      <PhoneNumber>+1-569-220-7676x836</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_171</ClientID>
+      <FullName>Chantal Besnard de la Arnaud</FullName>
+      <PhoneNumber>+34848 07 88 59</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_172</ClientID>
+      <FullName>Tania Codina Escrivá</FullName>
+      <PhoneNumber>784.467.4167x1599</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_173</ClientID>
+      <FullName>Kelly Jennings</FullName>
+      <PhoneNumber>+34 887142957</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_174</ClientID>
+      <FullName>Leandra Mireia Alemán Arnau</FullName>
+      <PhoneNumber>793.432.3146x03242</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_175</ClientID>
+      <FullName>Mr. Scott Martinez</FullName>
+      <PhoneNumber>+34 923969866</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_176</ClientID>
+      <FullName>Eugenio Hierro Camacho</FullName>
+      <PhoneNumber>720.317.1213x0249</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_177</ClientID>
+      <FullName>Severo del Fabra</FullName>
+      <PhoneNumber>+33 1 75 84 64 68</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_178</ClientID>
+      <FullName>Jeffery Thompson</FullName>
+      <PhoneNumber>+34841697629</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_179</ClientID>
+      <FullName>Febe Vall Enríquez</FullName>
+      <PhoneNumber>610.816.6962x55027</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_180</ClientID>
+      <FullName>Robert Scott</FullName>
+      <PhoneNumber>+34 872 28 43 32</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_181</ClientID>
+      <FullName>Paulette Philippe</FullName>
+      <PhoneNumber>04 88 08 24 11</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_182</ClientID>
+      <FullName>Carl Jones</FullName>
+      <PhoneNumber>+33 5 46 19 22 79</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_183</ClientID>
+      <FullName>Aurelio Folch</FullName>
+      <PhoneNumber>+34 947094570</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_184</ClientID>
+      <FullName>Andrew Rodriguez</FullName>
+      <PhoneNumber>+34902321814</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_185</ClientID>
+      <FullName>Yves Maillard</FullName>
+      <PhoneNumber>+33 (0)3 44 69 87 79</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_186</ClientID>
+      <FullName>Lacey Harvey</FullName>
+      <PhoneNumber>273.641.4442</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_187</ClientID>
+      <FullName>Ale Armas Rocha</FullName>
+      <PhoneNumber>7732810550</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_188</ClientID>
+      <FullName>Françoise Clerc-Leblanc</FullName>
+      <PhoneNumber>656.235.6163</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_189</ClientID>
+      <FullName>Raymond-Georges Étienne</FullName>
+      <PhoneNumber>+33 (0)2 55 87 27 28</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_190</ClientID>
+      <FullName>Scott Martin</FullName>
+      <PhoneNumber>335-643-4299x0110</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_191</ClientID>
+      <FullName>Olivie Pelletier</FullName>
+      <PhoneNumber>03 52 30 40 13</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_192</ClientID>
+      <FullName>Micheal Richards</FullName>
+      <PhoneNumber>+1-408-602-3059x9111</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_193</ClientID>
+      <FullName>Stéphane Le Lacombe</FullName>
+      <PhoneNumber>+34941 58 45 31</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_194</ClientID>
+      <FullName>Tiburcio Sarabia Huertas</FullName>
+      <PhoneNumber>+34 845679099</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_195</ClientID>
+      <FullName>Andrés Gisbert</FullName>
+      <PhoneNumber>+34841 122 911</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_196</ClientID>
+      <FullName>Dorothée Grégoire</FullName>
+      <PhoneNumber>+34 982 947 701</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_197</ClientID>
+      <FullName>Geraldo Lozano Maza</FullName>
+      <PhoneNumber>+33 1 82 58 08 39</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_198</ClientID>
+      <FullName>Noël Leconte</FullName>
+      <PhoneNumber>277.268.0628x74674</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_199</ClientID>
+      <FullName>Margaud Gay</FullName>
+      <PhoneNumber>+34985 242 281</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_200</ClientID>
+      <FullName>Marc du Garnier</FullName>
+      <PhoneNumber>001-716-993-5438x03959</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_201</ClientID>
+      <FullName>Alejandro Gordon</FullName>
+      <PhoneNumber>+34 824 54 78 68</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_202</ClientID>
+      <FullName>Georges Henry du Fischer</FullName>
+      <PhoneNumber>02 58 64 09 59</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_203</ClientID>
+      <FullName>Frédéric de Hervé</FullName>
+      <PhoneNumber>+34 881 263 560</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_204</ClientID>
+      <FullName>María Ángeles Reig Varela</FullName>
+      <PhoneNumber>0477714908</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_205</ClientID>
+      <FullName>Susanne Jourdan</FullName>
+      <PhoneNumber>+34972795574</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_206</ClientID>
+      <FullName>Susana Olivera Rosa</FullName>
+      <PhoneNumber>05 46 98 81 12</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_207</ClientID>
+      <FullName>Michele Henry</FullName>
+      <PhoneNumber>+33 1 46 70 84 71</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_208</ClientID>
+      <FullName>Pepita Tamayo-Barrio</FullName>
+      <PhoneNumber>+34978 12 68 90</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_209</ClientID>
+      <FullName>Ashley Andrews</FullName>
+      <PhoneNumber>(294)574-1830x93533</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_210</ClientID>
+      <FullName>Patricia Couturier</FullName>
+      <PhoneNumber>04 37 08 97 43</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_211</ClientID>
+      <FullName>Crescencia Izaguirre</FullName>
+      <PhoneNumber>+34 845253757</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_212</ClientID>
+      <FullName>Margaret Willis</FullName>
+      <PhoneNumber>+1-738-909-5858x37352</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_213</ClientID>
+      <FullName>Olivier Delattre-Chartier</FullName>
+      <PhoneNumber>+34 957 105 526</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_214</ClientID>
+      <FullName>Anabel Marqués Garmendia</FullName>
+      <PhoneNumber>03 59 18 73 20</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_215</ClientID>
+      <FullName>Dr. Jared Owens</FullName>
+      <PhoneNumber>+34910 92 10 91</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_216</ClientID>
+      <FullName>Gabriella Mendoza</FullName>
+      <PhoneNumber>458.459.0711x436</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_217</ClientID>
+      <FullName>Shaun Johnson</FullName>
+      <PhoneNumber>04 75 44 72 02</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_218</ClientID>
+      <FullName>Kirsten Navarro</FullName>
+      <PhoneNumber>001-662-548-9904</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_219</ClientID>
+      <FullName>Heather Nelson</FullName>
+      <PhoneNumber>632.667.3695</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_220</ClientID>
+      <FullName>Isabelle Gauthier Le Payet</FullName>
+      <PhoneNumber>413-978-2153x210</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_221</ClientID>
+      <FullName>Maite del Quintana</FullName>
+      <PhoneNumber>+34803 028 245</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_222</ClientID>
+      <FullName>Victoire Moreno</FullName>
+      <PhoneNumber>+34 724 28 81 51</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_223</ClientID>
+      <FullName>Lorraine Aubert</FullName>
+      <PhoneNumber>+34 916 30 04 16</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_224</ClientID>
+      <FullName>Eva María Jover-Álvaro</FullName>
+      <PhoneNumber>+1-694-788-3105</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_225</ClientID>
+      <FullName>Asdrubal Grau Vargas</FullName>
+      <PhoneNumber>+34 923 821 500</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_226</ClientID>
+      <FullName>Eloísa Cisneros-Amores</FullName>
+      <PhoneNumber>(437)965-6414x877</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_227</ClientID>
+      <FullName>Olegario Bernal Cepeda</FullName>
+      <PhoneNumber>+34878 554 555</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_228</ClientID>
+      <FullName>Alex Traore</FullName>
+      <PhoneNumber>0637694014</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_229</ClientID>
+      <FullName>Martin Fonseca Carranza</FullName>
+      <PhoneNumber>+34 806881253</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_230</ClientID>
+      <FullName>Adam Lopez</FullName>
+      <PhoneNumber>(333)296-8574x77167</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_231</ClientID>
+      <FullName>Patricio Guerrero Cabo</FullName>
+      <PhoneNumber>(817)662-7662</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_232</ClientID>
+      <FullName>Luce Caron</FullName>
+      <PhoneNumber>04 92 90 33 40</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_233</ClientID>
+      <FullName>Faustino Cortés Valverde</FullName>
+      <PhoneNumber>0493349118</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_234</ClientID>
+      <FullName>Samuel Burke</FullName>
+      <PhoneNumber>+34927 311 952</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_235</ClientID>
+      <FullName>Joshua Brown</FullName>
+      <PhoneNumber>+34807838962</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_236</ClientID>
+      <FullName>Brianna Kerr</FullName>
+      <PhoneNumber>+1-474-530-0574x557</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_237</ClientID>
+      <FullName>Bradley Schmitt</FullName>
+      <PhoneNumber>0470736670</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_238</ClientID>
+      <FullName>Mckenzie Flores</FullName>
+      <PhoneNumber>+33 (0)4 68 85 85 86</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_239</ClientID>
+      <FullName>Jeffrey Garcia</FullName>
+      <PhoneNumber>+34 880 653 021</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_240</ClientID>
+      <FullName>Aimé Lopez</FullName>
+      <PhoneNumber>+34826 951 148</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_241</ClientID>
+      <FullName>Melissa Garcia</FullName>
+      <PhoneNumber>+34 926 346 564</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_242</ClientID>
+      <FullName>Wálter Borja Pablo</FullName>
+      <PhoneNumber>+34803 55 61 22</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_243</ClientID>
+      <FullName>Céline Hervé</FullName>
+      <PhoneNumber>001-280-469-9259x61796</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_244</ClientID>
+      <FullName>Karen Schaefer</FullName>
+      <PhoneNumber>+34 974383412</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_245</ClientID>
+      <FullName>Andre Hampton</FullName>
+      <PhoneNumber>+34887 19 08 68</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_246</ClientID>
+      <FullName>Roberto Tolosa Lledó</FullName>
+      <PhoneNumber>+34 842 55 10 46</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_247</ClientID>
+      <FullName>Lorena Jover Cueto</FullName>
+      <PhoneNumber>(639)966-9187</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_248</ClientID>
+      <FullName>Nicholas Doyle</FullName>
+      <PhoneNumber>+34 980 37 74 78</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_249</ClientID>
+      <FullName>Brittany Carter</FullName>
+      <PhoneNumber>+33 6 47 38 37 36</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_250</ClientID>
+      <FullName>Paulette Gallet</FullName>
+      <PhoneNumber>06 70 49 98 05</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_251</ClientID>
+      <FullName>Susana Garzón-Criado</FullName>
+      <PhoneNumber>001-719-342-4050</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_252</ClientID>
+      <FullName>Crystal Jones</FullName>
+      <PhoneNumber>0139540983</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_253</ClientID>
+      <FullName>Cándido Pont Cortes</FullName>
+      <PhoneNumber>+34882827141</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_254</ClientID>
+      <FullName>Angela Levy</FullName>
+      <PhoneNumber>+1-567-941-8522x07392</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_255</ClientID>
+      <FullName>Georgina Ponce Talavera</FullName>
+      <PhoneNumber>+34928 98 81 09</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_256</ClientID>
+      <FullName>William Long</FullName>
+      <PhoneNumber>+34 963 18 93 79</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_257</ClientID>
+      <FullName>Maribel Pardo Cisneros</FullName>
+      <PhoneNumber>(346)500-4507x7361</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_258</ClientID>
+      <FullName>Jaime Sanabria-Palacios</FullName>
+      <PhoneNumber>756.329.4577x6197</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_259</ClientID>
+      <FullName>Candelaria Cándida Escobar Trujillo</FullName>
+      <PhoneNumber>(207)291-7279</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_260</ClientID>
+      <FullName>Mary Garrett</FullName>
+      <PhoneNumber>+34 972458039</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_261</ClientID>
+      <FullName>Franck Leconte</FullName>
+      <PhoneNumber>972.643.3219x420</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_262</ClientID>
+      <FullName>Lorena Giralt Gutiérrez</FullName>
+      <PhoneNumber>928-649-5854x8043</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_263</ClientID>
+      <FullName>Christophe Martins</FullName>
+      <PhoneNumber>793.790.3476x88298</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_264</ClientID>
+      <FullName>Alonso Blázquez Herrera</FullName>
+      <PhoneNumber>+1-661-877-5687x811</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_265</ClientID>
+      <FullName>Ignacio Damián Fortuny Osorio</FullName>
+      <PhoneNumber>+34800 786 182</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_266</ClientID>
+      <FullName>Hugues-Benjamin Bourgeois</FullName>
+      <PhoneNumber>+1-288-568-8245</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_267</ClientID>
+      <FullName>Penny Nichols</FullName>
+      <PhoneNumber>+33 7 57 51 68 50</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_268</ClientID>
+      <FullName>Allen Gonzalez</FullName>
+      <PhoneNumber>+34 857 67 68 52</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_269</ClientID>
+      <FullName>Adora Nilda Esteban González</FullName>
+      <PhoneNumber>0258448170</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_270</ClientID>
+      <FullName>Justin Banks</FullName>
+      <PhoneNumber>+34 979 242 273</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_271</ClientID>
+      <FullName>Marc Garcia</FullName>
+      <PhoneNumber>+34 884521832</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_272</ClientID>
+      <FullName>Antonia Mercader Juliá</FullName>
+      <PhoneNumber>320.928.9611</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_273</ClientID>
+      <FullName>Abel Bolaños Espejo</FullName>
+      <PhoneNumber>001-789-413-9280x895</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_274</ClientID>
+      <FullName>Rebecca Ramirez</FullName>
+      <PhoneNumber>+1-373-527-6155x134</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_275</ClientID>
+      <FullName>Maxi Roura Lorenzo</FullName>
+      <PhoneNumber>+34 821930428</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_276</ClientID>
+      <FullName>Bernardino Fabra Mercader</FullName>
+      <PhoneNumber>968-963-3244</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_277</ClientID>
+      <FullName>William Stone</FullName>
+      <PhoneNumber>0352316831</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_278</ClientID>
+      <FullName>Alexandra de Palomino</FullName>
+      <PhoneNumber>+34825 78 37 55</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_279</ClientID>
+      <FullName>Félix Ros Bilbao</FullName>
+      <PhoneNumber>+34 827 072 311</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_280</ClientID>
+      <FullName>Martine Dijoux</FullName>
+      <PhoneNumber>432-606-4149x5753</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_281</ClientID>
+      <FullName>María Carmen Bernat</FullName>
+      <PhoneNumber>02 90 90 30 84</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_282</ClientID>
+      <FullName>Agathe Gay-Delaunay</FullName>
+      <PhoneNumber>+33 7 47 81 79 08</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_283</ClientID>
+      <FullName>Françoise Legrand-Dias</FullName>
+      <PhoneNumber>+34925 275 706</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_284</ClientID>
+      <FullName>Marcel Allard</FullName>
+      <PhoneNumber>919-563-0675x88705</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_285</ClientID>
+      <FullName>Silvio Coloma-Oliveras</FullName>
+      <PhoneNumber>+34 822 76 90 60</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_286</ClientID>
+      <FullName>Christopher Hawkins</FullName>
+      <PhoneNumber>+34 827 06 45 55</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_287</ClientID>
+      <FullName>Kevin Welch</FullName>
+      <PhoneNumber>+33 4 44 04 62 42</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_288</ClientID>
+      <FullName>Anabel de Balaguer</FullName>
+      <PhoneNumber>+33 (0)1 60 10 53 12</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_289</ClientID>
+      <FullName>Christian Campbell</FullName>
+      <PhoneNumber>+33 2 19 74 99 59</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_290</ClientID>
+      <FullName>Esmeralda Arregui-Moya</FullName>
+      <PhoneNumber>+34942494323</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_291</ClientID>
+      <FullName>Paulina Uría Vazquez</FullName>
+      <PhoneNumber>0297935187</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_292</ClientID>
+      <FullName>Estrella Sanabria Farré</FullName>
+      <PhoneNumber>+34881494225</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_293</ClientID>
+      <FullName>María Carmen Villaverde Amo</FullName>
+      <PhoneNumber>+33 5 36 63 39 62</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_294</ClientID>
+      <FullName>Marthe Seguin</FullName>
+      <PhoneNumber>+34875 005 565</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_295</ClientID>
+      <FullName>Andrée Deschamps du Guichard</FullName>
+      <PhoneNumber>0699455314</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_296</ClientID>
+      <FullName>Isaac Baron-Delorme</FullName>
+      <PhoneNumber>+33 (0)4 80 60 88 50</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_297</ClientID>
+      <FullName>Balduino Cardona Elías</FullName>
+      <PhoneNumber>+1-450-203-9010x87741</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_298</ClientID>
+      <FullName>Ann Lucas</FullName>
+      <PhoneNumber>+34 877534694</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_299</ClientID>
+      <FullName>Margot Salmon</FullName>
+      <PhoneNumber>+34 848 740 270</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_300</ClientID>
+      <FullName>Anouk du Laine</FullName>
+      <PhoneNumber>991.563.5290x9193</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_301</ClientID>
+      <FullName>Dimas Maza Céspedes</FullName>
+      <PhoneNumber>+33 5 46 62 83 88</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_302</ClientID>
+      <FullName>Katherine Smith</FullName>
+      <PhoneNumber>02 51 79 08 34</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_303</ClientID>
+      <FullName>John Phillips</FullName>
+      <PhoneNumber>05 36 25 97 87</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_304</ClientID>
+      <FullName>Georges Reynaud-Martineau</FullName>
+      <PhoneNumber>+34731 891 357</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_305</ClientID>
+      <FullName>Olivie Lefebvre</FullName>
+      <PhoneNumber>615.799.9779x84777</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_306</ClientID>
+      <FullName>Mireia Rodrigo-Cabeza</FullName>
+      <PhoneNumber>+33 (0)2 51 64 76 45</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_307</ClientID>
+      <FullName>Luis Mendoza</FullName>
+      <PhoneNumber>+34 946298375</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_308</ClientID>
+      <FullName>Thérèse Loiseau</FullName>
+      <PhoneNumber>0444672379</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_309</ClientID>
+      <FullName>Hugues Lelièvre</FullName>
+      <PhoneNumber>+33 (0)4 20 39 79 73</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_310</ClientID>
+      <FullName>Íngrid Escribano Gras</FullName>
+      <PhoneNumber>+33 (0)3 55 30 03 39</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_311</ClientID>
+      <FullName>Pauline Barthelemy Le Foucher</FullName>
+      <PhoneNumber>+1-684-568-1965x6509</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_312</ClientID>
+      <FullName>Chema Badía Ribera</FullName>
+      <PhoneNumber>+34 942606105</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_313</ClientID>
+      <FullName>Augustin Mathieu</FullName>
+      <PhoneNumber>673.274.1568x60389</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_314</ClientID>
+      <FullName>Amanda Jones</FullName>
+      <PhoneNumber>0636058559</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_315</ClientID>
+      <FullName>Matilde Gutierrez Colom</FullName>
+      <PhoneNumber>+34887 81 75 29</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_316</ClientID>
+      <FullName>María Del Carmen Córdoba Río</FullName>
+      <PhoneNumber>+34 902 79 68 75</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_317</ClientID>
+      <FullName>Bryan Mason</FullName>
+      <PhoneNumber>04 85 73 86 95</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_318</ClientID>
+      <FullName>Laurie Macias</FullName>
+      <PhoneNumber>(300)933-7439x2572</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_319</ClientID>
+      <FullName>Marie Lebreton</FullName>
+      <PhoneNumber>06 37 09 95 70</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_320</ClientID>
+      <FullName>Matthew Thompson</FullName>
+      <PhoneNumber>+33 (0)1 83 43 19 57</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_321</ClientID>
+      <FullName>Duane Young</FullName>
+      <PhoneNumber>+33 5 64 63 06 05</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_322</ClientID>
+      <FullName>William Brown</FullName>
+      <PhoneNumber>+33 (0)4 82 32 39 81</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_323</ClientID>
+      <FullName>Margot Petit</FullName>
+      <PhoneNumber>+34933 89 56 33</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_324</ClientID>
+      <FullName>Yves-Guy Fernandez</FullName>
+      <PhoneNumber>+33 4 89 13 49 23</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_325</ClientID>
+      <FullName>Adrienne Ferrand-Guillet</FullName>
+      <PhoneNumber>+34729989017</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_326</ClientID>
+      <FullName>Justin Gonzales</FullName>
+      <PhoneNumber>+34825 926 224</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_327</ClientID>
+      <FullName>Tyler Roberts</FullName>
+      <PhoneNumber>813.348.7835x0192</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_328</ClientID>
+      <FullName>Virginie Lopes-Bourgeois</FullName>
+      <PhoneNumber>+34 943 021 797</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_329</ClientID>
+      <FullName>Kristi Moyer</FullName>
+      <PhoneNumber>+34 944 76 46 26</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_330</ClientID>
+      <FullName>Claudine Delattre</FullName>
+      <PhoneNumber>+1-739-266-6590x6855</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_331</ClientID>
+      <FullName>Jacqueline Perrin</FullName>
+      <PhoneNumber>779.971.6737</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_332</ClientID>
+      <FullName>Gabriel Peinado Oller</FullName>
+      <PhoneNumber>+34 984096944</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_333</ClientID>
+      <FullName>Hortense Hubert</FullName>
+      <PhoneNumber>(917)343-3285x482</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_334</ClientID>
+      <FullName>Sofía Redondo Sanjuan</FullName>
+      <PhoneNumber>710.738.1576</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_335</ClientID>
+      <FullName>Louis Le Ramos</FullName>
+      <PhoneNumber>001-481-860-5183x9478</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_336</ClientID>
+      <FullName>Lilia Sans Ros</FullName>
+      <PhoneNumber>486.407.2814x887</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_337</ClientID>
+      <FullName>Tina Cooke</FullName>
+      <PhoneNumber>+34 902 35 73 05</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_338</ClientID>
+      <FullName>Adèle Bègue de la Aubry</FullName>
+      <PhoneNumber>+34 814324194</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_339</ClientID>
+      <FullName>Bruce Dixon</FullName>
+      <PhoneNumber>+34943 967 313</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_340</ClientID>
+      <FullName>Adrienne Durand</FullName>
+      <PhoneNumber>464-418-9113x71751</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_341</ClientID>
+      <FullName>Amy Gilbert</FullName>
+      <PhoneNumber>+34 925 243 239</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_342</ClientID>
+      <FullName>Maristela Cueto Villegas</FullName>
+      <PhoneNumber>+34985376942</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_343</ClientID>
+      <FullName>Marco Bru Reig</FullName>
+      <PhoneNumber>+34928000469</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_344</ClientID>
+      <FullName>Marcel Potier</FullName>
+      <PhoneNumber>933-905-4414x320</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_345</ClientID>
+      <FullName>Fabricio Morera Pozuelo</FullName>
+      <PhoneNumber>+33 (0)6 58 29 64 08</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_346</ClientID>
+      <FullName>Célina Lebon</FullName>
+      <PhoneNumber>+34 975636360</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_347</ClientID>
+      <FullName>Donna Brown</FullName>
+      <PhoneNumber>03 66 12 85 37</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_348</ClientID>
+      <FullName>José Luis Escrivá Mariño</FullName>
+      <PhoneNumber>+34924 916 089</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_0</ClientID>
+      <FullName>Hugues Vallet</FullName>
+      <PhoneNumber>+34823 807 439</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_1</ClientID>
+      <FullName>Encarnacion Corbacho Busquets</FullName>
+      <PhoneNumber>+34 873 77 22 88</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_2</ClientID>
+      <FullName>Manon de la Weber</FullName>
+      <PhoneNumber>+34 806 550 349</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_3</ClientID>
+      <FullName>Hugues Renard de Bruneau</FullName>
+      <PhoneNumber>+34 945 95 42 81</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_4</ClientID>
+      <FullName>Dr. Shannon Terry</FullName>
+      <PhoneNumber>9055337138</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_5</ClientID>
+      <FullName>Joseph-Georges Blondel</FullName>
+      <PhoneNumber>+34827469164</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_6</ClientID>
+      <FullName>Éléonore Le Cordier</FullName>
+      <PhoneNumber>+1-718-385-3675x82614</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_7</ClientID>
+      <FullName>Constance Ledoux-Jourdan</FullName>
+      <PhoneNumber>+33 (0)3 23 64 35 95</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_8</ClientID>
+      <FullName>William Carlier-Robert</FullName>
+      <PhoneNumber>+34 880 115 671</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_9</ClientID>
+      <FullName>Gabriela Holloway</FullName>
+      <PhoneNumber>+1-511-888-5258x82969</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_10</ClientID>
+      <FullName>Benjamin Marion</FullName>
+      <PhoneNumber>0180984166</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_11</ClientID>
+      <FullName>Demetrio Dominguez-Escolano</FullName>
+      <PhoneNumber>(960)792-3329x719</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_12</ClientID>
+      <FullName>Jacinto Villena Badía</FullName>
+      <PhoneNumber>+34 984 231 578</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_13</ClientID>
+      <FullName>Édouard Lévy</FullName>
+      <PhoneNumber>372-642-1210x381</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_14</ClientID>
+      <FullName>Gary Harris</FullName>
+      <PhoneNumber>+1-864-689-6254x84348</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_15</ClientID>
+      <FullName>Adrien Boutin</FullName>
+      <PhoneNumber>+33 (0)3 79 07 23 66</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_16</ClientID>
+      <FullName>Eliana Benitez Aguiló</FullName>
+      <PhoneNumber>0579365722</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_17</ClientID>
+      <FullName>Paz María Manuela Galan Paniagua</FullName>
+      <PhoneNumber>438-356-2423x54716</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_18</ClientID>
+      <FullName>Noemí Grande-Alberto</FullName>
+      <PhoneNumber>0741785306</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_19</ClientID>
+      <FullName>Roger Lamy</FullName>
+      <PhoneNumber>+34902 89 12 76</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_20</ClientID>
+      <FullName>Julia Thomas</FullName>
+      <PhoneNumber>001-916-773-5350</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_21</ClientID>
+      <FullName>Rebecca Powell</FullName>
+      <PhoneNumber>+34 879296069</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_22</ClientID>
+      <FullName>Angela Ewing</FullName>
+      <PhoneNumber>703.928.3593</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_23</ClientID>
+      <FullName>Natanael Escamilla Azcona</FullName>
+      <PhoneNumber>+34 881 73 00 49</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_24</ClientID>
+      <FullName>Ambrosio Real Viña</FullName>
+      <PhoneNumber>+34926 419 042</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_25</ClientID>
+      <FullName>Paul Hall</FullName>
+      <PhoneNumber>04 15 79 02 88</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_26</ClientID>
+      <FullName>Jose Francisco Carbó Viana</FullName>
+      <PhoneNumber>+33 3 76 14 86 67</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_27</ClientID>
+      <FullName>Gabriel Diallo</FullName>
+      <PhoneNumber>(482)971-6130x1672</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_28</ClientID>
+      <FullName>Martin Legros</FullName>
+      <PhoneNumber>+34827807438</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_29</ClientID>
+      <FullName>Eloy Anguita Blazquez</FullName>
+      <PhoneNumber>+34 978 97 57 90</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_30</ClientID>
+      <FullName>John Walker</FullName>
+      <PhoneNumber>001-750-566-8488x9339</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_31</ClientID>
+      <FullName>Céline Le Lesage</FullName>
+      <PhoneNumber>0248564125</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_32</ClientID>
+      <FullName>Rosenda Moll-Gaya</FullName>
+      <PhoneNumber>+34927151527</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_33</ClientID>
+      <FullName>Bryan Washington</FullName>
+      <PhoneNumber>+34807624424</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_34</ClientID>
+      <FullName>Conrado Severino Olivera Catalán</FullName>
+      <PhoneNumber>+33 (0)1 79 21 22 88</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_35</ClientID>
+      <FullName>Trinidad Mármol Castrillo</FullName>
+      <PhoneNumber>+34986 39 25 03</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_36</ClientID>
+      <FullName>Marcos de Lillo</FullName>
+      <PhoneNumber>+34 849228537</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_37</ClientID>
+      <FullName>Angelino Codina-Marcos</FullName>
+      <PhoneNumber>824-521-9558x2163</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_38</ClientID>
+      <FullName>Cristina Cañellas Canales</FullName>
+      <PhoneNumber>(292)401-5108x65078</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_39</ClientID>
+      <FullName>Cintia Pineda Román</FullName>
+      <PhoneNumber>861.221.9401x01047</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_40</ClientID>
+      <FullName>Christina Chaney</FullName>
+      <PhoneNumber>01 74 97 00 06</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_41</ClientID>
+      <FullName>Joseph Johnson</FullName>
+      <PhoneNumber>0236702640</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_42</ClientID>
+      <FullName>Valerie Harris</FullName>
+      <PhoneNumber>+1-452-267-1883x2270</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_43</ClientID>
+      <FullName>Nayara del Miguel</FullName>
+      <PhoneNumber>+34902110886</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_44</ClientID>
+      <FullName>Wilfredo Cortes-Oliver</FullName>
+      <PhoneNumber>+33 (0)4 75 44 00 92</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_45</ClientID>
+      <FullName>Richard Navarro</FullName>
+      <PhoneNumber>001-670-908-4171x7542</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_46</ClientID>
+      <FullName>Melissa Smith</FullName>
+      <PhoneNumber>+33 (0)5 34 61 72 83</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_47</ClientID>
+      <FullName>Elizabeth Ramirez</FullName>
+      <PhoneNumber>(291)936-6247x139</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_48</ClientID>
+      <FullName>Maxi Contreras-Mendez</FullName>
+      <PhoneNumber>+33 2 49 73 81 96</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_49</ClientID>
+      <FullName>Macaria Valentín Expósito</FullName>
+      <PhoneNumber>0240862377</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_50</ClientID>
+      <FullName>Sergio Raúl Catalán Almansa</FullName>
+      <PhoneNumber>+1-853-862-3610x211</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_51</ClientID>
+      <FullName>Matilde de Arnau</FullName>
+      <PhoneNumber>+34 977 705 525</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_52</ClientID>
+      <FullName>Tristan Baudry du Martel</FullName>
+      <PhoneNumber>+1-544-616-5781</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_53</ClientID>
+      <FullName>Mia Cox</FullName>
+      <PhoneNumber>+33 (0)1 80 09 58 73</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_54</ClientID>
+      <FullName>Arthur Marshall</FullName>
+      <PhoneNumber>+33 (0)5 54 97 33 73</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_55</ClientID>
+      <FullName>Vincent Leleu de la Leclercq</FullName>
+      <PhoneNumber>0325643540</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_56</ClientID>
+      <FullName>Primitiva Serafina Madrid Carranza</FullName>
+      <PhoneNumber>+33 (0)5 18 11 13 70</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_57</ClientID>
+      <FullName>Troy Cruz</FullName>
+      <PhoneNumber>+33 (0)3 71 40 57 78</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_58</ClientID>
+      <FullName>Charles Roach</FullName>
+      <PhoneNumber>(577)285-6986</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_59</ClientID>
+      <FullName>Artemio Alsina Zamora</FullName>
+      <PhoneNumber>001-570-967-9447x876</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_60</ClientID>
+      <FullName>Atilio Cuéllar Tello</FullName>
+      <PhoneNumber>0164938960</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_61</ClientID>
+      <FullName>Goyo Saturnino Mateo Rosa</FullName>
+      <PhoneNumber>294-808-1930</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_62</ClientID>
+      <FullName>Mark Walker</FullName>
+      <PhoneNumber>+33 1 53 12 13 66</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_63</ClientID>
+      <FullName>Gilles de la Moreau</FullName>
+      <PhoneNumber>+33 (0)1 72 91 84 20</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_64</ClientID>
+      <FullName>Hermenegildo de Domínguez</FullName>
+      <PhoneNumber>+33 3 62 74 51 99</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_65</ClientID>
+      <FullName>Thomas Mann</FullName>
+      <PhoneNumber>+33 5 64 05 37 00</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_66</ClientID>
+      <FullName>John Patel</FullName>
+      <PhoneNumber>567.772.0371x995</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_67</ClientID>
+      <FullName>Teodosio Vergara Pedrosa</FullName>
+      <PhoneNumber>271.883.0485</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_68</ClientID>
+      <FullName>Emelina Odalys Sancho Ordóñez</FullName>
+      <PhoneNumber>+33 (0)2 29 13 80 95</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_69</ClientID>
+      <FullName>Kenneth King</FullName>
+      <PhoneNumber>+1-815-735-3620</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_70</ClientID>
+      <FullName>Thomas Leduc</FullName>
+      <PhoneNumber>001-321-843-8298x0890</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_71</ClientID>
+      <FullName>Albert Jose Ignacio Camps Salcedo</FullName>
+      <PhoneNumber>+33 (0)4 79 38 19 10</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_72</ClientID>
+      <FullName>Alice Laporte</FullName>
+      <PhoneNumber>+34 828 93 53 21</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_73</ClientID>
+      <FullName>Jeremy Hill</FullName>
+      <PhoneNumber>+33 (0)5 96 38 22 93</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_74</ClientID>
+      <FullName>Montserrat Blanch Villalobos</FullName>
+      <PhoneNumber>776.228.8490x981</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_75</ClientID>
+      <FullName>Gregorio Zapata Saldaña</FullName>
+      <PhoneNumber>+34 844 35 38 39</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_76</ClientID>
+      <FullName>Gilbert Carlier</FullName>
+      <PhoneNumber>+34 720 696 452</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_77</ClientID>
+      <FullName>Nélida Valera Cantero</FullName>
+      <PhoneNumber>0587200112</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_78</ClientID>
+      <FullName>Émile Lombard</FullName>
+      <PhoneNumber>+33 3 23 57 11 09</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_79</ClientID>
+      <FullName>Océane Rousset</FullName>
+      <PhoneNumber>+34823 69 02 68</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_80</ClientID>
+      <FullName>Christophe Mercier-Gaudin</FullName>
+      <PhoneNumber>001-825-360-3965x3307</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_81</ClientID>
+      <FullName>Robyn Clarke</FullName>
+      <PhoneNumber>001-437-483-4032</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_82</ClientID>
+      <FullName>María Luisa Quirós Quintanilla</FullName>
+      <PhoneNumber>562-989-3944</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_83</ClientID>
+      <FullName>Catalina Montero Moreno</FullName>
+      <PhoneNumber>0474173975</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_84</ClientID>
+      <FullName>Andrés Santos Franch</FullName>
+      <PhoneNumber>+34 718 64 98 72</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_85</ClientID>
+      <FullName>Juliette Moreau</FullName>
+      <PhoneNumber>+34 828 550 303</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_86</ClientID>
+      <FullName>Zoraida Puente</FullName>
+      <PhoneNumber>+34964 30 42 18</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_87</ClientID>
+      <FullName>Elba Espejo</FullName>
+      <PhoneNumber>+33 3 67 76 34 17</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_88</ClientID>
+      <FullName>Emmanuel Guyon</FullName>
+      <PhoneNumber>+34 745 13 78 74</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_89</ClientID>
+      <FullName>Arsenio Navarrete-Escrivá</FullName>
+      <PhoneNumber>277-823-7699x4222</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_90</ClientID>
+      <FullName>Jérôme Petit</FullName>
+      <PhoneNumber>02 48 39 62 61</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_91</ClientID>
+      <FullName>Daniel Étienne</FullName>
+      <PhoneNumber>02 49 65 34 16</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_92</ClientID>
+      <FullName>Benjamin Rivière</FullName>
+      <PhoneNumber>+34 943245451</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_93</ClientID>
+      <FullName>Ashley Marquez</FullName>
+      <PhoneNumber>+34800 16 98 22</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_94</ClientID>
+      <FullName>Emmanuelle Duval</FullName>
+      <PhoneNumber>+33 (0)1 69 83 85 28</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_95</ClientID>
+      <FullName>Maurice Lejeune de la Klein</FullName>
+      <PhoneNumber>+34848 984 752</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_96</ClientID>
+      <FullName>Suzanne-Josette Georges</FullName>
+      <PhoneNumber>+34 978 05 73 60</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_97</ClientID>
+      <FullName>Adèle Guérin</FullName>
+      <PhoneNumber>+1-938-714-8418x151</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_98</ClientID>
+      <FullName>Juliana Casares</FullName>
+      <PhoneNumber>+34846 02 23 21</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_99</ClientID>
+      <FullName>Melania Trillo Arjona</FullName>
+      <PhoneNumber>589-531-5687</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_100</ClientID>
+      <FullName>Matthew Bowen</FullName>
+      <PhoneNumber>200.273.5739x772</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>X</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_101</ClientID>
+      <FullName>Victoire Dupont</FullName>
+      <PhoneNumber>927.953.7104x37589</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_102</ClientID>
+      <FullName>Frederick Rhodes PhD</FullName>
+      <PhoneNumber>+33 4 20 38 97 37</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_103</ClientID>
+      <FullName>Rodolfo Posada Gárate</FullName>
+      <PhoneNumber>001-943-783-5966x995</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_104</ClientID>
+      <FullName>Rachel Smith</FullName>
+      <PhoneNumber>6664799531</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_105</ClientID>
+      <FullName>Michael Edwards</FullName>
+      <PhoneNumber>+34 985910393</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_106</ClientID>
+      <FullName>Emily Brown</FullName>
+      <PhoneNumber>0298348628</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_107</ClientID>
+      <FullName>Mateo Lino Camacho Cuéllar</FullName>
+      <PhoneNumber>+33 3 45 57 10 94</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_108</ClientID>
+      <FullName>Brianna Rubio</FullName>
+      <PhoneNumber>+33 (0)3 23 81 55 60</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_109</ClientID>
+      <FullName>Rosario Badía</FullName>
+      <PhoneNumber>+34 987961912</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_110</ClientID>
+      <FullName>Olivier Pottier</FullName>
+      <PhoneNumber>+34973 037 143</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_111</ClientID>
+      <FullName>Bobby Kelley</FullName>
+      <PhoneNumber>+33 3 60 51 34 90</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_112</ClientID>
+      <FullName>Thibaut de la Costa</FullName>
+      <PhoneNumber>04 38 07 72 18</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_113</ClientID>
+      <FullName>Clotilde Quirós</FullName>
+      <PhoneNumber>524-758-9451x41928</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_114</ClientID>
+      <FullName>Celestina de Larrea</FullName>
+      <PhoneNumber>+34879760333</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_115</ClientID>
+      <FullName>Scott Taylor</FullName>
+      <PhoneNumber>565-993-3576x640</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_116</ClientID>
+      <FullName>Amy Carroll</FullName>
+      <PhoneNumber>+34947545941</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_117</ClientID>
+      <FullName>Bertrand Fontaine Le Ruiz</FullName>
+      <PhoneNumber>904.287.2980x74723</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_118</ClientID>
+      <FullName>Patrick Pinto</FullName>
+      <PhoneNumber>+33 1 34 78 79 22</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_119</ClientID>
+      <FullName>Poncio Franco Pi</FullName>
+      <PhoneNumber>+34888 366 558</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_120</ClientID>
+      <FullName>Timothy Moore</FullName>
+      <PhoneNumber>(670)991-7047</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_121</ClientID>
+      <FullName>Crystal Franklin</FullName>
+      <PhoneNumber>+33 (0)1 79 61 86 35</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>M</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_122</ClientID>
+      <FullName>Abigaíl Coll Alegria</FullName>
+      <PhoneNumber>+33 8 04 67 29 93</PhoneNumber>
+      <ClientType>XL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_123</ClientID>
+      <FullName>Étienne du Giraud</FullName>
+      <PhoneNumber>+33 5 31 58 81 28</PhoneNumber>
+      <ClientType>XXL</ClientType>
+      <Genre>F</Genre>
+   </Client>
+   <Client>
+      <ClientID>clt_124</ClientID>
+      <FullName>Leandro Acedo</FullName>
+      <PhoneNumber>001-680-683-0996x7883</PhoneNumber>
+      <ClientType>L</ClientType>
+      <Genre>M</Genre>
+   </Client>
+</Clients>

@@ -1,0 +1,183 @@
+<?xml version="1.0" ?>
+<Sellers>
+   <Seller>
+      <VendeurID>vnd_0</VendeurID>
+      <FullName>Ángela Peinado-Villalobos</FullName>
+      <PhoneNumber>001-334-687-8184x665</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_1</VendeurID>
+      <FullName>Sabine du Michel</FullName>
+      <PhoneNumber>+34936 32 57 67</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_2</VendeurID>
+      <FullName>Richard Haley</FullName>
+      <PhoneNumber>02 30 36 82 62</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_3</VendeurID>
+      <FullName>Michael Santana</FullName>
+      <PhoneNumber>0638603074</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_4</VendeurID>
+      <FullName>Paula Garcia</FullName>
+      <PhoneNumber>+33 4 85 30 31 85</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_5</VendeurID>
+      <FullName>María Bárcena Espinosa</FullName>
+      <PhoneNumber>0147033755</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_6</VendeurID>
+      <FullName>Saturnino Cuadrado Peñas</FullName>
+      <PhoneNumber>+34947435126</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_7</VendeurID>
+      <FullName>Célina Rodriguez</FullName>
+      <PhoneNumber>+34982 475 581</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_8</VendeurID>
+      <FullName>Pascual Baena Alcántara</FullName>
+      <PhoneNumber>+34921 57 48 35</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_9</VendeurID>
+      <FullName>Océane Guérin</FullName>
+      <PhoneNumber>5846347415</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_10</VendeurID>
+      <FullName>Edward Davies</FullName>
+      <PhoneNumber>+34988 857 580</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_11</VendeurID>
+      <FullName>Fito Echevarría Gracia</FullName>
+      <PhoneNumber>+34 978 14 87 94</PhoneNumber>
+      <Genre>X</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_12</VendeurID>
+      <FullName>Franck Le Bodin</FullName>
+      <PhoneNumber>+33 3 39 06 30 61</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_13</VendeurID>
+      <FullName>Néstor Bas</FullName>
+      <PhoneNumber>604-317-2249x17007</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_14</VendeurID>
+      <FullName>Inocencio Mate Paz</FullName>
+      <PhoneNumber>04 97 51 01 93</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_15</VendeurID>
+      <FullName>Charles Oconnell</FullName>
+      <PhoneNumber>05 79 53 53 89</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_16</VendeurID>
+      <FullName>Micheal Williams MD</FullName>
+      <PhoneNumber>+1-809-226-6049x95161</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_17</VendeurID>
+      <FullName>Cruz Corbacho Merino</FullName>
+      <PhoneNumber>+33 (0)3 63 59 09 00</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_18</VendeurID>
+      <FullName>Sheila Lowe</FullName>
+      <PhoneNumber>527.606.4030x1418</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_19</VendeurID>
+      <FullName>Marcelle Renault</FullName>
+      <PhoneNumber>+33 4 81 59 32 98</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_20</VendeurID>
+      <FullName>Paul Suarez</FullName>
+      <PhoneNumber>+34 962089467</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_21</VendeurID>
+      <FullName>Gastón Perea Jáuregui</FullName>
+      <PhoneNumber>+33 7 34 00 52 17</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_22</VendeurID>
+      <FullName>Charles Lucas</FullName>
+      <PhoneNumber>+34 882 519 890</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_23</VendeurID>
+      <FullName>Vilma Muñoz-Gargallo</FullName>
+      <PhoneNumber>899-308-3561</PhoneNumber>
+      <Genre>X</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_24</VendeurID>
+      <FullName>Paul Blin</FullName>
+      <PhoneNumber>8296158465</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_25</VendeurID>
+      <FullName>Jennifer Wright</FullName>
+      <PhoneNumber>+34720584311</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_26</VendeurID>
+      <FullName>Ciríaco Yáñez</FullName>
+      <PhoneNumber>0344225476</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_27</VendeurID>
+      <FullName>Carlos Ortiz</FullName>
+      <PhoneNumber>+34 845436050</PhoneNumber>
+      <Genre>F</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_28</VendeurID>
+      <FullName>Felipe del Grau</FullName>
+      <PhoneNumber>+33 4 84 46 35 27</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+   <Seller>
+      <VendeurID>vnd_29</VendeurID>
+      <FullName>Paco del Jaume</FullName>
+      <PhoneNumber>(308)601-9212x45408</PhoneNumber>
+      <Genre>M</Genre>
+   </Seller>
+</Sellers>

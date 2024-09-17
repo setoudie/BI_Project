@@ -271,3 +271,5 @@ def download_data(drv, choice):
         download_sellers_data_xml(drv)
         download_product_data(drv)
         print("Donnees téléchargées\nFormat : CSV")
+
+driver.close()
